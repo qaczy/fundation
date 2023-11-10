@@ -45,11 +45,14 @@ function Blog() {
 									{blogPost.desc}
 								</p>
 							</div>
+
 						</div>
 					))}
 				</div>
+
 			</div>
 		</div>
+
 	);
 }
 

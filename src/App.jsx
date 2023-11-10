@@ -1,18 +1,12 @@
 /** @format */
 
-import Navbar from "./components/Navbar.jsx";
-import Blog from "./components/Blog.jsx";
-import Footer from "./components/Footer.jsx";
+import { Homepage, BlogContentPage } from "./pages";
 
-import "./App.css";
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<div className="spacer pt-20"></div>
-			<Blog />
-			<Footer />
+			<BlogContentPage />
 		</>
 	);
 }

@@ -8,6 +8,7 @@ import menuContrast from "../assets/menuContrast.svg";
 import menuClose from "../assets/menuClose.svg";
 import menuOpen from "../assets/menuOpen.svg";
 
+
 const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	const handleClick = () => setToggle(!toggle);
