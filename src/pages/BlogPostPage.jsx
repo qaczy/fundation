@@ -1,15 +1,15 @@
 import React from 'react'
 import { Navbar, BlogContent, Footer } from "../components";
 
-function BlogContentPage() {
+const BlogPostPage = ({ blogs }) => {
+
 	return (
 		<>
 			<Navbar />
-			<div className="spacer pt-20"></div>
-			<BlogContent />
+			<BlogContent blogs={blogs ? blogs : ""} />
 			<Footer />
 		</>
 	)
 }
 
-export default BlogContentPage
+export default BlogPostPage

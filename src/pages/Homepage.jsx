@@ -1,17 +1,14 @@
-/** @format */
+import React from 'react'
+import { Navbar, HomeContent, Footer } from '../components'
 
-import { Navbar, Blog, Footer } from "../components";
-import "../App.css";
-
-function App() {
+function Hompage() {
 	return (
 		<>
 			<Navbar />
-			<div className="spacer pt-20"></div>
-			<Blog />
+			<HomeContent />
 			<Footer />
 		</>
-	);
+	)
 }
 
-export default App;
+export default Hompage
